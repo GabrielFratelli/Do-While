@@ -1,0 +1,13 @@
+.contentWrapper {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 453px;
+      grid-template-columns: 1fr 453px;
+  -webkit-column-gap: 120px;
+          column-gap: 120px;
+  position: relative;
+}
+/*# sourceMappingURL=App.module.css.map */
