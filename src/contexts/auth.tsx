@@ -73,7 +73,7 @@ export function AuthProvider(props: AuthProvider) {
     if (hasGithubCode) {
       const [urlWithoutCode, githubCode] = url.split("?code=");
 
-      window.history.pushState({}, " ", urlWithoutCode);
+      window.history.pushState({}, "", urlWithoutCode);
 
       signIn(githubCode);
     }
