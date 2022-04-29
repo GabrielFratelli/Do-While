@@ -1,13 +1,5 @@
-import { api } from '../../services/api'
-
 import styles from "./styles.module.scss";
-
-export function MessageList() {
-useEffect(() => {}, [])
-}
-
 import logoImg from "../../assets/logo.svg";
-import { useEffect } from 'react';
 
 export function MessageList() {
   return (
