@@ -12,7 +12,7 @@ export function App() {
   return (
     <main
       className={`${styles.contentWrapper} ${
-        !!user ? styles.contentSigned : " "
+        !!user ? styles.contentSigned : ""
       }`}
     >
       <MessageList />
